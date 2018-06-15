@@ -1,0 +1,94 @@
+/* Q1 */
+.logo {
+    color: red;
+}
+
+/* Q2 */
+.menu-item {
+    color: green;
+}
+
+/* Q3 */
+nav a:visited{
+    color: #444;
+}
+
+/* Q4 */
+.card {
+    color: white;
+}
+
+/* Q5 */
+.card button {
+    background-color: lightgreen;
+    color: white;
+}
+
+/* Q6 */
+article p::first-letter {
+    font-size: 30px;
+}
+
+/* Q7 */
+.blog {
+    background-color: #666;
+    color: #cff;
+}
+
+/* Q8 */
+.gallery figure:hover{
+    box-shadow: 5px 10px #444;
+}
+
+/* Q9 */
+.gallery figcaption {
+    padding: 8px;
+}
+
+/* Q11 */
+.blog-article {
+    margin-top: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Q12 */
+.article-title {
+    text-align: center;
+}
+
+/* Q13 */
+h2 {
+    text-transform: uppercase;
+}
+
+/* Q14 */
+.form-input {
+    display: block;
+    margin-top: 15px; /*Q15*/
+    padding: 7px; /*Q16*/
+}
+
+/* Q17 */
+footer {
+    background-color: rgb(50, 53, 50);
+    color: #ffc266;
+}
+
+/* Q18 */
+.form-input:focus {
+    border-width: 4px; 
+}
+
+/* Q19 */
+h2::before {
+    content: ">";
+    margin-right: 4px;
+}
+
+/* Q20 */
+input[type="radio"] {
+    margin-left: 20px; 
+    margin-right: 5px;
+}
